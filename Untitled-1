@@ -1,0 +1,5 @@
+curl -d "client_id=admin-cli" -d "username=admin" -d "password=admin" -d "grant_type=password" "http://localhost:8080/auth/realms/master/protocol/openid-connect/token"
+
+/auth/realms/apiv3/account
+
+curl -d "client_id=account" -d "username=apiv3admin" -d "password=Wednesday@24" -d "grant_type=password" "http://localhost:8080/auth/realms/apiv3/account"
