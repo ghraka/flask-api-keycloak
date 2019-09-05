@@ -19,10 +19,8 @@ app.config.update({
     'OIDC_REQUIRE_VERIFIED_EMAIL': False,
     'OIDC_USER_INFO_ENABLED': True,
     'OIDC_SCOPES': ['openid', 'email', 'profile'],
-    'OIDC_INTROSPECTION_AUTH_METHOD': 'bearer',
-    'OIDC_TOKEN_TYPE_HINT': 'access_token',
-    'OIDC_RESOURCE_SERVER_ONLY': True,
-    'OIDC_RESOURCE_CHECK_AUD': True
+    'OIDC_INTROSPECTION_AUTH_METHOD': 'client_secret_post',
+    'OIDC_TOKEN_TYPE_HINT': 'access_token'
 })
 
 oidc = OpenIDConnect(app)
