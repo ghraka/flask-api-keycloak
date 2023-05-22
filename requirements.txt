@@ -3,6 +3,6 @@ Flask-WTF==0.14
 Flask-SQLAlchemy==2.4.0
 flask-marshmallow==0.10.1
 marshmallow-sqlalchemy==0.17.0
-requests==2.22.0
+requests==2.31.0
 python-dotenv==0.10.3
 gunicorn==19.9.0
